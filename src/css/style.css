@@ -1,0 +1,96 @@
+body{
+    font-family: var(--text);
+    color: var(--color-text);
+}
+
+main{
+    background: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--home-background);
+    height: 100vh;
+    padding: 0 50px;    
+}
+
+.header{
+   padding: 15px 0 30px;
+}
+
+.header img{
+    width: 17%;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .img-illustration-huddle{
+    width: 50%;
+}
+
+.home .img-illustration-huddle img{
+    width: 100%;
+}
+
+.home .information{
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+
+.home .information h1{
+    font-family: var(--titles);
+    font-size: 4rem;
+    padding: 0 45px 0 0;
+}
+
+.home .information p{
+    font-size: 1.8rem;
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+.home .information .btn{
+    font-size: 2rem;
+    color: var(--button);
+    padding: 12px 57px;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px #000;
+    cursor: pointer;
+}
+
+.home .information .btn:hover{
+    color: var(--color-text);
+    background-color: var(--hover);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+} 
+
+.footer a{
+    border-radius: 50px;
+    border: solid 1px #fff;
+}
+
+.footer a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.footer a:hover{
+    border: 1px solid var(--hover);
+}
+
+.footer i:hover{
+    color: var(--hover);
+}
