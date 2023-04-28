@@ -9,7 +9,7 @@ main{
     background-size: contain;
     background-color: var(--home-background);
     height: 100vh;
-    padding: 0 50px;    
+    padding: 0 60px;    
 }
 
 .header{
@@ -27,7 +27,7 @@ main{
 }
 
 .home .img-illustration-huddle{
-    width: 50%;
+    width: 100%;
 }
 
 .home .img-illustration-huddle img{
@@ -35,7 +35,7 @@ main{
 }
 
 .home .information{
-    width: 50%;
+    width: 100%;
     padding: 0 0 0 50px;
 }
 
@@ -93,4 +93,45 @@ main{
 
 .footer i:hover{
     color: var(--hover);
+}
+
+@media(max-width: 950px){
+    main{
+        padding: 0 30px;
+        background: url("../images/bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: var(--home-background);
+    }
+
+    .header img{
+        width: 50%;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home .information{
+        padding: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .home .information h1{
+        font-size: 2.6rem;
+    }
+
+    .home .information p{
+        text-align: center;
+    }
+
+    .home .information .btn{
+
+    }
+
+    .footer{
+        justify-content: center;
+        margin-top: 40px;
+    }
 }
