@@ -1,7 +1,7 @@
 :root{
-    --home-background: #674BB2;
-    --color-text: #fff;
-    --button: #674BAF;
+    --background: #674BB2;
+    --color-text: #ffffff;
+    --button-text: #674BAF;
     --hover: #E882E8;
 
     --titles: 'Poppins', sans-serif;

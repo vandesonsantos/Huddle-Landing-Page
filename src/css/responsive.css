@@ -1,0 +1,37 @@
+@media(max-width: 950px){
+    main{
+        background: url("../images/bg-mobile.svg");
+        padding: 0 30px;
+    }
+
+    .header img{
+        width: 50%;
+    }
+
+    .home{
+        flex-direction: column;
+    }
+
+    .home .information{
+        padding: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .home .information h1{
+        font-size: 2.6rem;
+    }
+
+    .home .information p{
+        text-align: center;
+    }
+
+    .home .information .btn{
+        padding: 12px 80px;
+    }
+
+    .social-midia{
+        justify-content: center;
+        margin-top: 50px;
+    }
+}

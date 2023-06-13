@@ -1,22 +1,15 @@
 body{
+    background-color: var(--background);
     font-family: var(--text);
     color: var(--color-text);
 }
 
 main{
-    background: url("../images/bg-desktop.svg") no-repeat;
-    background-size: contain;
-    background-color: var(--home-background);
+    max-width: 1440px;
+    background: url("../images/bg-desktop.svg");
+    background-size: cover;
     height: 100vh;
     padding: 0 60px;    
-}
-
-.header{
-   padding: 15px 0 30px;
-}
-
-.header img{
-    width: 17%;
 }
 
 .home{
@@ -52,7 +45,7 @@ main{
 
 .home .information .btn{
     font-size: 2rem;
-    color: var(--button);
+    color: var(--button-text);
     padding: 12px 57px;
     border: 0;
     border-radius: 50px;
@@ -63,73 +56,4 @@ main{
 .home .information .btn:hover{
     color: var(--color-text);
     background-color: var(--hover);
-}
-
-.footer{
-    display: flex;
-    justify-content: flex-end;
-    gap: 14px;
-} 
-
-.footer a{
-    border-radius: 50px;
-    border: solid 1px #fff;
-}
-
-.footer a i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    font-size: 2rem;
-    color: var(--color-text);
-}
-
-.footer a:hover{
-    border: 1px solid var(--hover);
-}
-
-.footer i:hover{
-    color: var(--hover);
-}
-
-@media(max-width: 950px){
-    main{
-        padding: 0 30px;
-        background: url("../images/bg-mobile.svg") no-repeat;
-        background-size: contain;
-        background-color: var(--home-background);
-    }
-
-    .header img{
-        width: 50%;
-    }
-
-    .home{
-        flex-direction: column;
-    }
-
-    .home .information{
-        padding: 0;
-        margin-top: 30px;
-        text-align: center;
-    }
-
-    .home .information h1{
-        font-size: 2.6rem;
-    }
-
-    .home .information p{
-        text-align: center;
-    }
-
-    .home .information .btn{
-        padding: 12px 80px;
-    }
-
-    .footer{
-        justify-content: center;
-        margin-top: 50px;
-    }
 }
